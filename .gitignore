@@ -1,0 +1,4 @@
+/vendor/
+/.nova/*
+!/.nova/Artwork
+!/.nova/Configuration.json

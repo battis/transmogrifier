@@ -1,0 +1,12 @@
+{
+  "name": "battis/transmogrifier",
+  "description": "Quick tool to transmogrify text using common hashing/encoding algorithms",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Seth Battis",
+      "email": "seth@battis.net"
+    }
+  ],
+  "require": {}
+}

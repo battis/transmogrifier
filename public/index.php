@@ -36,8 +36,8 @@ function optionsFromArray($arr, $key, $default) {
     foreach($arr as $opt) {
         $selected = $opt == $selector ? ' selected' : '';
         $options[] = <<<EOT
-<option value="{$opt}"{$selected}>{$opt}</option>
-EOT;
+        <option value="{$opt}"{$selected}>{$opt}</option>
+        EOT;
     }
     return join(PHP_EOL, $options);
 }
